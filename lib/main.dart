@@ -15,7 +15,8 @@ class TheLocalDev extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: const ColorScheme.dark(),
+/*         colorScheme: const ColorScheme.dark(),
+ */
       ),
       home: const FlutterComponents(),
     );
