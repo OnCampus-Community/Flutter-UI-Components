@@ -1,4 +1,7 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_components/components/buttons/toggle_button3.dart';
 
 import '../../../components/components.dart';
 
@@ -31,7 +34,12 @@ class BottonScreen extends StatelessWidget {
                   onPressed: () {},
                   iconImage: Image.network(
                       "https://avatars.githubusercontent.com/u/63138398?v=4"),
-                  text: const Text("Heyy"))
+                  text: const Text("Heyy")),
+              ToggleButton1(
+                toggleItems: const ["Play", "Pause"],
+                onPressed: (b) => log("toggle, $b"),
+                toggleIcon: AnimatedIcons.play_pause,
+              )
             ],
           ),
         )),

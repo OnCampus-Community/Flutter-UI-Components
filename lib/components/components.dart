@@ -8,4 +8,5 @@ export './bottom_nav_bars/bottom_nav_bar1.dart';
 export './bottom_nav_bars/bottom_nav_bar2.dart';
 export './bottom_nav_bars/bottom_nav_bar3.dart';
 export './bottom_nav_bars/bottom_nav_bar4.dart';
+export './bottom_nav_bars/bottom_nav_bar5.dart';
 

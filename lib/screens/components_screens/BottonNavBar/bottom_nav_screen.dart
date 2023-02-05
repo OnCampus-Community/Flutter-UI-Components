@@ -76,6 +76,20 @@ class BottomNavBarScreen extends StatelessWidget {
                           builder: (context) => const BottomNavBar4()),
                     );
                   }),
+              const SizedBox(
+                height: 50,
+              ),
+              FlutterButton1(
+                  text: const Text(
+                    "Bottom Nav Bar 5",
+                    style: TextStyle(fontSize: 20),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      CupertinoPageRoute(builder: (context) => BottomNavBar5()),
+                    );
+                  }),
             ],
           ),
         )),
