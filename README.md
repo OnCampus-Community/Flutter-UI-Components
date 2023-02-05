@@ -4,6 +4,14 @@
     <img src="https://avatars.githubusercontent.com/u/116508440?s=200&v=4" alt="Logo" width="200" height="200">
   </a>
 
+<p align="center">
+<a href="https://twitter.com/oncampus_in" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="oncampus_in" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/https://www.linkedin.com/company/82527819/admin/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/company/82527819/admin/" height="30" width="40" /></a>
+<a href="https://instagram.com/https://www.instagram.com/oncampus_official/?hl=en" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/oncampus_official/?hl=en" height="30" width="40" /></a>
+<a href="https://discord.gg/GvXEkaQr8e" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="GvXEkaQr8e" height="30" width="40" /></a>
+</p>
+
+
   <h1 align="center">Flutter UI Components</h1>
 
   <p align="center">
