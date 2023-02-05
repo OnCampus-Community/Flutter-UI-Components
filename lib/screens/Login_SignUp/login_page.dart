@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -34,9 +35,14 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                Image.network(
-                  'https://raw.githubusercontent.com/deepraj02/Firebase_Flutter_AUTH/master/assets/bg2.png',
-                  height: 200,
+                CachedNetworkImage(
+                  imageUrl:
+                      "https://raw.githubusercontent.com/deepraj02/Firebase_Flutter_AUTH/master/assets/bg2.png",
+                  placeholder: (context, url) =>
+                      const CircularProgressIndicator.adaptive(
+                          backgroundColor: Colors.red),
+                  errorWidget: (context, url, error) =>
+                      const Icon(Icons.error_outline),
                 ),
                 Text(
                   'Sign in to continue',
