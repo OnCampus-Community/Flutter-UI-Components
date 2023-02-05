@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "build/web",
+    "public": "dist/FirstProject",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites":[
-      {
-        "source":"**",
-        "destination":"dist/FirstProject/index.html"
-      }
     ]
   }
 }
