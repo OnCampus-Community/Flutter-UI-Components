@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_components/screens/display_screen.dart';
+import 'package:flutter_components/screens/components_display_screen.dart';
+import 'package:flutter_components/screens/screens_display_page.dart';
 
 import 'components/components.dart';
 
@@ -29,7 +30,7 @@ class FlutterComponents extends StatelessWidget {
                     Navigator.push(
                       context,
                       CupertinoPageRoute(
-                          builder: (context) => const DisplayScreen()),
+                          builder: (context) => const ComponentDisplayScreen()),
                     );
                   }),
               const SizedBox(
@@ -41,15 +42,11 @@ class FlutterComponents extends StatelessWidget {
                     style: TextStyle(fontSize: 20),
                   ),
                   onPressed: () {
-                    showDialog(
-                        context: context,
-                        builder: (context) {
-                          return const AlertDialog(
-                            title: Text("Welcome to UI Components"),
-                            content: Text(
-                                "Screens are currently in Development\n Feel free to Contribute"),
-                          );
-                        });
+                    Navigator.push(
+                      context,
+                      CupertinoPageRoute(
+                          builder: (context) => const ScreenDisplayScreen()),
+                    );
                   })
             ],
           ),

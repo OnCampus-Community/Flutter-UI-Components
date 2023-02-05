@@ -5,8 +5,8 @@ import 'package:flutter_components/screens/components_screens/Buttons/button_scr
 
 import '../../../components/components.dart';
 
-class DisplayScreen extends StatelessWidget {
-  const DisplayScreen({super.key});
+class ComponentDisplayScreen extends StatelessWidget {
+  const ComponentDisplayScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +57,15 @@ class DisplayScreen extends StatelessWidget {
                     style: TextStyle(fontSize: 20),
                   ),
                   onPressed: () {
-                    
+                    showDialog(
+                        context: context,
+                        builder: (context) {
+                          return const AlertDialog(
+                            title: Text("Welcome to UI Components"),
+                            content: Text(
+                                "Loading Indicators are currently in Development\n Feel free to Contribute"),
+                          );
+                        });
                   }),
             ],
           ),
