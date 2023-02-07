@@ -17,10 +17,9 @@ class ScreenDisplayScreen extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
-            child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                   FlutterButton1(
+            child:
+                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+              FlutterButton1(
                   text: const Text(
                     "Login/SignUp Screen -Dark",
                     style: TextStyle(fontSize: 20),
@@ -29,13 +28,13 @@ class ScreenDisplayScreen extends StatelessWidget {
                     Navigator.push(
                       context,
                       CupertinoPageRoute(
-                          builder: (context) => WelcomeScreen()),
+                          builder: (context) => const WelcomeScreen()),
                     );
                   }),
               const SizedBox(
                 height: 50,
               ),
-                ]),
+            ]),
           ),
         ),
       ),

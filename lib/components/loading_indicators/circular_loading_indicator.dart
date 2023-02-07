@@ -48,7 +48,7 @@ class _CircularLoadingIndicatorState
 
   @override
   void dispose() {
-    // TODO: implement dispose
+    //: implement dispose
     animController.dispose();
     super.dispose();
   }

@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'login_page.dart';
 
 class WelcomeScreen extends StatelessWidget {
-  WelcomeScreen({Key? key}) : super(key: key);
+  const WelcomeScreen({Key? key}) : super(key: key);
 
-  Color primaryColor = const Color(0xff18203d);
+  final Color primaryColor = const Color(0xff18203d);
 
-  Color secondaryColor = const Color(0xff232c51);
+  final Color secondaryColor = const Color(0xff232c51);
 
-  Color logoGreen = const Color(0xff25bcbb);
+  final Color logoGreen = const Color(0xff25bcbb);
 
   @override
   Widget build(BuildContext context) {
@@ -55,8 +55,8 @@ class WelcomeScreen extends StatelessWidget {
               height: 50,
               minWidth: 70,
               onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => LoginScreen()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const LoginScreen()));
               },
               color: logoGreen,
               textColor: Colors.white,

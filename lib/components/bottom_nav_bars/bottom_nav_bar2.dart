@@ -4,10 +4,10 @@ class BottomNavBar2 extends StatefulWidget {
   const BottomNavBar2({Key? key}) : super(key: key);
 
   @override
-  _BottomNavBar2State createState() => _BottomNavBar2State();
+  BottomNavBar2State createState() => BottomNavBar2State();
 }
 
-class _BottomNavBar2State extends State<BottomNavBar2> {
+class BottomNavBar2State extends State<BottomNavBar2> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

@@ -16,10 +16,10 @@ class BottomNavBar5 extends StatefulWidget {
         );
 
   @override
-  _BottomNavBar5State createState() => _BottomNavBar5State();
+  BottomNavBar5State createState() => BottomNavBar5State();
 }
 
-class _BottomNavBar5State extends State<BottomNavBar5> {
+class BottomNavBar5State extends State<BottomNavBar5> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
