@@ -4,6 +4,7 @@ import 'package:flutter_components/screens/components_screens/BottonNavBar/botto
 import 'package:flutter_components/screens/components_screens/Buttons/button_screen.dart';
 
 import '../../../components/components.dart';
+import 'components_screens/CarouselScreen/carousel_screen.dart';
 
 class ComponentDisplayScreen extends StatelessWidget {
   const ComponentDisplayScreen({super.key});
@@ -66,6 +67,20 @@ class ComponentDisplayScreen extends StatelessWidget {
                                 "Loading Indicators are currently in Development\n Feel free to Contribute"),
                           );
                         });
+                  }),
+              const SizedBox(
+                height: 50,
+              ),
+              FlutterButton1(
+                  text: const Text(
+                    "Carousels",
+                    style: TextStyle(fontSize: 20),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        CupertinoPageRoute(
+                            builder: (context) => const CarouselScreen()));
                   }),
             ],
           ),
