@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_components/screens/components_screens/CarouselScreen/carousel_display.dart';
 
 import '../../../components/components.dart';
 
@@ -43,7 +42,7 @@ class CarouselScreen extends StatelessWidget {
                     Navigator.push(
                         context,
                         CupertinoPageRoute(
-                            builder: (context) => const CarouselDisplay()));
+                            builder: (context) => const CustomCarousel1()));
                   }),
               const SizedBox(
                 height: 50,
